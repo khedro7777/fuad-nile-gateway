@@ -24,8 +24,8 @@ const Header = () => {
               <span className="text-primary-foreground font-display font-bold text-xl">F</span>
             </div>
             <div>
-              <h1 className="text-2xl font-display font-bold text-primary">Fuad Hotel</h1>
-              <p className="text-xs text-muted-foreground">Egyptian Heritage & Luxury</p>
+              <h1 className="text-2xl font-display font-bold text-primary">Al Fouad Palace</h1>
+              <p className="text-xs text-muted-foreground">Pyramids View Hotel • Giza</p>
             </div>
           </div>
 
@@ -44,13 +44,13 @@ const Header = () => {
 
           {/* Contact Info */}
           <div className="hidden lg:flex items-center space-x-4 text-sm">
-            <div className="flex items-center space-x-1">
+              <div className="flex items-center space-x-1">
               <Phone className="w-4 h-4 text-primary" />
-              <span>+20 123 456 789</span>
+              <span>+20 2 123 456 789</span>
             </div>
             <div className="flex items-center space-x-1">
               <Mail className="w-4 h-4 text-primary" />
-              <span>info@fuadhotel.com</span>
+              <span>info@alfouadpalace.com</span>
             </div>
           </div>
 
@@ -82,11 +82,11 @@ const Header = () => {
               <div className="flex flex-col space-y-2 pt-4 border-t border-border/50">
                 <div className="flex items-center space-x-2 text-sm">
                   <Phone className="w-4 h-4 text-primary" />
-                  <span>+20 123 456 789</span>
+                  <span>+20 2 123 456 789</span>
                 </div>
                 <div className="flex items-center space-x-2 text-sm">
                   <Mail className="w-4 h-4 text-primary" />
-                  <span>info@fuadhotel.com</span>
+                  <span>info@alfouadpalace.com</span>
                 </div>
               </div>
             </div>

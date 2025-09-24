@@ -1,55 +1,55 @@
 import { Waves, Utensils, Wifi, Car, Dumbbell, Heart, Users, Wine } from "lucide-react";
-import hotelPoolImage from "@/assets/hotel-pool.jpg";
+import realHotelPool from "@/assets/real-hotel-pool.jpg";
 
 const Amenities = () => {
   const amenities = [
     {
       icon: Waves,
-      title: "Infinity Pool",
-      description: "Stunning infinity pool overlooking the Nile with poolside service",
-      image: hotelPoolImage
+      title: "Outdoor Swimming Pool",
+      description: "Refreshing outdoor pool with terrace area and poolside service",
+      image: realHotelPool
     },
     {
       icon: Utensils,
-      title: "Al-Nile Restaurant",
-      description: "Authentic Egyptian cuisine with panoramic pyramid views",
-      image: hotelPoolImage
+      title: "Two Restaurants",
+      description: "American, Italian and authentic Egyptian cuisine with vegetarian options",
+      image: realHotelPool
     },
     {
       icon: Heart,
-      title: "Royal Spa",
-      description: "Traditional Egyptian treatments and modern wellness therapies",
-      image: hotelPoolImage
+      title: "Sauna & Wellness",
+      description: "Relaxing sauna facilities for your comfort and well-being",
+      image: realHotelPool
     },
     {
       icon: Users,
-      title: "Conference Hall",
-      description: "State-of-the-art meeting facilities for business and events",
-      image: hotelPoolImage
+      title: "Shared Lounge",
+      description: "Comfortable communal area for socializing and relaxation",
+      image: realHotelPool
     },
     {
       icon: Wine,
-      title: "Pharaoh's Lounge",
-      description: "Elegant bar with premium spirits and Nile sunset views",
-      image: hotelPoolImage
-    },
-    {
-      icon: Dumbbell,
-      title: "Fitness Center",
-      description: "24/7 modern gym with professional equipment and trainer",
-      image: hotelPoolImage
+      title: "Terrace Bar",
+      description: "Scenic terrace bar with drinks and light refreshments",
+      image: realHotelPool
     },
     {
       icon: Car,
-      title: "Valet Parking",
-      description: "Complimentary valet parking and luxury car rental service",
-      image: hotelPoolImage
+      title: "Airport Transportation",
+      description: "Convenient shuttle service to/from Sphinx International Airport",
+      image: realHotelPool
+    },
+    {
+      icon: Car,
+      title: "Parking Available",
+      description: "On-site parking facilities for guests arriving by car",
+      image: realHotelPool
     },
     {
       icon: Wifi,
-      title: "High-Speed WiFi",
-      description: "Complimentary high-speed internet throughout the hotel",
-      image: hotelPoolImage
+      title: "Free High-Speed WiFi",
+      description: "Complimentary WiFi throughout the property (rated 10/10 by guests)",
+      image: realHotelPool
     }
   ];
 
@@ -117,24 +117,24 @@ const Amenities = () => {
           <div className="mt-16 fade-in">
             <div className="luxury-card p-8 bg-gradient-nile text-white text-center">
               <h3 className="text-3xl font-display font-bold mb-4">
-                Nile View Terrace
+                24-Hour Front Desk Service
               </h3>
               <p className="text-xl text-white/90 mb-6 max-w-3xl mx-auto leading-relaxed">
-                Experience breathtaking sunset views from our exclusive Nile Terrace. 
-                Perfect for romantic dinners, private events, or simply watching the eternal river flow by.
+                Our dedicated staff provides round-the-clock assistance, concierge service, 
+                and room service to ensure your stay is comfortable and memorable.
               </p>
               <div className="flex items-center justify-center space-x-8 text-sm">
                 <div className="text-center">
-                  <div className="text-2xl font-bold">360°</div>
-                  <div className="text-white/80">Panoramic Views</div>
-                </div>
-                <div className="text-center">
                   <div className="text-2xl font-bold">24/7</div>
-                  <div className="text-white/80">Open Access</div>
+                  <div className="text-white/80">Front Desk</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-2xl font-bold">Private</div>
-                  <div className="text-white/80">Event Space</div>
+                  <div className="text-2xl font-bold">Free</div>
+                  <div className="text-white/80">Room Service</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-2xl font-bold">Expert</div>
+                  <div className="text-white/80">Concierge</div>
                 </div>
               </div>
             </div>

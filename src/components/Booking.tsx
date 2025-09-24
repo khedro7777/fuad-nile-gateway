@@ -18,10 +18,10 @@ const Booking = () => {
   });
 
   const roomTypes = [
-    { value: "heritage", label: "Heritage Room - $149/night" },
-    { value: "nile-view", label: "Nile View Room - $199/night" },
-    { value: "pharaoh", label: "Pharaoh Suite - $299/night" },
-    { value: "family", label: "Royal Family Suite - $449/night" }
+    { value: "premium-pyramid", label: "Premium Pyramid View - $120/night" },
+    { value: "standard-double", label: "Standard Double Room - $95/night" },
+    { value: "triple-room", label: "Triple Room - $135/night" },
+    { value: "family-suite", label: "Family Suite - $180/night" }
   ];
 
   const handleInputChange = (field: string, value: string) => {
@@ -168,18 +168,18 @@ const Booking = () => {
                   <CardTitle className="text-xl font-display">Contact Information</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-4">
-                  <div className="flex items-center space-x-3">
+                    <div className="flex items-center space-x-3">
                     <Phone className="w-5 h-5 text-primary" />
                     <div>
                       <p className="font-semibold">Phone</p>
-                      <p className="text-muted-foreground">+20 123 456 789</p>
+                      <p className="text-muted-foreground">+20 2 123 456 789</p>
                     </div>
                   </div>
                   <div className="flex items-center space-x-3">
                     <Mail className="w-5 h-5 text-primary" />
                     <div>
                       <p className="font-semibold">Email</p>
-                      <p className="text-muted-foreground">reservations@fuadhotel.com</p>
+                      <p className="text-muted-foreground">reservations@alfouadpalace.com</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
@@ -198,16 +198,16 @@ const Booking = () => {
                 </CardHeader>
                 <CardContent className="space-y-4 text-white/90">
                   <div>
-                    <h4 className="font-semibold mb-2">Egyptian Heritage Package</h4>
-                    <p className="text-sm">3+ nights includes pyramid tours, breakfast & spa</p>
+                    <h4 className="font-semibold mb-2">Pyramid View Package</h4>
+                    <p className="text-sm">Stay 3+ nights and enjoy breakfast & airport transfer</p>
                   </div>
                   <div>
-                    <h4 className="font-semibold mb-2">Nile Sunset Romance</h4>
-                    <p className="text-sm">Private dinner cruise and couples spa treatment</p>
+                    <h4 className="font-semibold mb-2">Family Special</h4>
+                    <p className="text-sm">Kids under 12 stay free with family room booking</p>
                   </div>
                   <div>
-                    <h4 className="font-semibold mb-2">Early Bird Discount</h4>
-                    <p className="text-sm">Book 30 days in advance and save 15%</p>
+                    <h4 className="font-semibold mb-2">Couples Getaway</h4>
+                    <p className="text-sm">Romantic package with dinner and spa access</p>
                   </div>
                 </CardContent>
               </Card>

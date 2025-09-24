@@ -19,8 +19,8 @@ const About = () => {
     },
     {
       icon: Calendar,
-      title: "Since 1952",
-      description: "Seven decades of welcoming guests from around the world"
+      title: "Prime Location", 
+      description: "Just 2.6 miles from Giza Pyramids, rated 8.4/10 by couples"
     }
   ];
 
@@ -44,31 +44,31 @@ const About = () => {
               <h3 className="text-2xl font-display font-semibold mb-6 text-foreground">
                 Our Story of Heritage & Hospitality
               </h3>
-              <div className="space-y-4 text-lg text-muted-foreground leading-relaxed">
+          <div className="space-y-4 text-lg text-muted-foreground leading-relaxed">
                 <p>
-                  Founded in 1952, Fuad Hotel has been a beacon of Egyptian hospitality for over seven decades. 
-                  Nestled in the heart of Giza, our hotel offers an unparalleled view of the ancient pyramids 
-                  and the life-giving Nile River.
+                  Al Fouad Palace Pyramids View is a distinguished 3-star hotel located in the heart of Giza, 
+                  offering spectacular pyramid views just 2.6 miles from the Great Pyramids of Giza. 
+                  Our prime location in Al Remaya provides easy access to Egypt's most iconic landmarks.
                 </p>
                 <p>
-                  Named after King Fuad I, our establishment honors Egypt's rich heritage while providing 
-                  modern luxury and comfort. Each room tells a story, each meal celebrates tradition, 
-                  and every moment spent with us connects you to the timeless magic of Egypt.
+                  Named in honor of Egyptian heritage, our hotel combines traditional hospitality with modern 
+                  comfort. We pride ourselves on providing exceptional service with a 24-hour front desk, 
+                  airport transportation, and personalized concierge service to make your Egyptian adventure unforgettable.
                 </p>
                 <p>
-                  From our elegant suites overlooking the pyramids to our authentic Egyptian cuisine, 
-                  we offer more than accommodation – we provide an experience that bridges the ancient 
-                  and the contemporary.
+                  From our outdoor swimming pool and terrace bar to our authentic restaurant serving American, 
+                  Italian, and local Egyptian cuisine, we offer complete facilities for both leisure and 
+                  business travelers seeking comfort near the wonders of ancient Egypt.
                 </p>
               </div>
             </div>
 
             <div className="fade-in-delayed">
               <div className="luxury-card p-8 text-center">
-                <div className="text-6xl font-display font-bold text-primary mb-4">70+</div>
-                <h4 className="text-xl font-display font-semibold mb-2">Years of Excellence</h4>
+                <div className="text-6xl font-display font-bold text-primary mb-4">7.4</div>
+                <h4 className="text-xl font-display font-semibold mb-2">Guest Rating</h4>
                 <p className="text-muted-foreground">
-                  Serving guests with authentic Egyptian hospitality since 1952
+                  "Good" rating from 33 verified guest reviews on international platforms
                 </p>
               </div>
             </div>

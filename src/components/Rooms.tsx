@@ -1,57 +1,57 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Wifi, Car, Coffee, Bath, Users, Bed } from "lucide-react";
-import luxuryRoomImage from "@/assets/luxury-room.jpg";
+import realHotelRoom from "@/assets/real-hotel-room.jpg";
 
 const Rooms = () => {
   const rooms = [
     {
       id: 1,
-      name: "Pharaoh Suite",
-      image: luxuryRoomImage,
-      price: "$299",
-      size: "65 m²",
+      name: "Premium Pyramid View",
+      image: realHotelRoom,
+      price: "$120",
+      size: "25 m²",
       guests: "2 Adults",
-      beds: "King Bed",
-      amenities: ["Nile View", "Private Balcony", "Marble Bathroom", "Egyptian Cotton Linens"],
-      features: [Wifi, Car, Coffee, Bath],
-      description: "Our most luxurious suite featuring panoramic views of the Nile and pyramids"
+      beds: "Twin/Double Bed",
+      amenities: ["Pyramid View", "Air Conditioning", "Minibar", "Flat-screen TV", "Private Bathroom", "Free WiFi"],
+      features: [Wifi, Coffee, Bath],
+      description: "Comfortable room with stunning pyramid views, air conditioning and modern amenities"
     },
     {
       id: 2,
-      name: "Nile View Room",
-      image: luxuryRoomImage,
-      price: "$199",
-      size: "45 m²",
+      name: "Standard Double Room",
+      image: realHotelRoom,
+      price: "$95",
+      size: "22 m²",
       guests: "2 Adults",
-      beds: "Queen Bed",
-      amenities: ["Nile View", "Modern Amenities", "Egyptian Décor", "Premium Bedding"],
+      beds: "Double Bed",
+      amenities: ["City View", "Air Conditioning", "Safety Deposit Box", "Electric Kettle", "Private Bathroom", "Free WiFi"],
       features: [Wifi, Coffee, Bath],
-      description: "Elegant room with stunning Nile views and authentic Egyptian touches"
+      description: "Well-appointed room with modern comforts and essential amenities for a pleasant stay"
     },
     {
       id: 3,
-      name: "Heritage Room",
-      image: luxuryRoomImage,
-      price: "$149",
-      size: "35 m²",
-      guests: "2 Adults",
-      beds: "Queen Bed",
-      amenities: ["Garden View", "Traditional Design", "Modern Comfort", "Air Conditioning"],
-      features: [Wifi, Coffee],
-      description: "Comfortable room showcasing traditional Egyptian design with modern amenities"
+      name: "Triple Room",
+      image: realHotelRoom,
+      price: "$135",
+      size: "28 m²",
+      guests: "3 Adults",
+      beds: "3 Single Beds",
+      amenities: ["Garden View", "Air Conditioning", "Minibar", "Flat-screen TV", "Private Bathroom", "Free WiFi"],
+      features: [Wifi, Coffee, Bath, Users],
+      description: "Spacious room perfect for families or groups, with three comfortable beds"
     },
     {
       id: 4,
-      name: "Royal Family Suite",
-      image: luxuryRoomImage,
-      price: "$449",
-      size: "95 m²",
+      name: "Family Suite",
+      image: realHotelRoom,
+      price: "$180",
+      size: "35 m²",
       guests: "4 Adults",
-      beds: "2 King Beds",
-      amenities: ["Pyramid View", "Living Area", "Kitchenette", "Two Bathrooms"],
+      beds: "2 Double Beds",
+      amenities: ["Pyramid View", "Separate Seating Area", "Minibar", "Two Bathrooms", "Balcony", "Free WiFi"],
       features: [Wifi, Car, Coffee, Bath, Users],
-      description: "Spacious family suite perfect for larger groups with spectacular pyramid views"
+      description: "Generous family accommodation with separate living space and stunning pyramid views"
     }
   ];
 
@@ -145,14 +145,14 @@ const Rooms = () => {
           <div className="text-center mt-16 fade-in">
             <div className="luxury-card p-8 bg-gradient-nile text-white">
               <h3 className="text-2xl font-display font-bold mb-4">
-                Special Egyptian Heritage Package
+                Complete Egyptian Experience Package
               </h3>
               <p className="text-white/90 mb-6 max-w-2xl mx-auto">
-                Book 3 nights or more and enjoy complimentary pyramid tours, 
-                traditional Egyptian breakfast, and spa treatments.
+                All rooms include complimentary breakfast, free WiFi, airport shuttle service, 
+                and access to our outdoor pool and terrace bar.
               </p>
               <Button variant="outline" className="border-white text-white hover:bg-white hover:text-accent">
-                Learn More
+                View All Amenities
               </Button>
             </div>
           </div>

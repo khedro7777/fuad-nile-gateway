@@ -8,19 +8,19 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-16">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Hotel Info */}
-          <div className="space-y-4">
+            <div className="space-y-4">
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-10 h-10 bg-gradient-gold rounded-full flex items-center justify-center">
-                <span className="text-primary-foreground font-display font-bold text-lg">F</span>
+                <span className="text-primary-foreground font-display font-bold text-lg">A</span>
               </div>
               <div>
-                <h3 className="text-xl font-display font-bold">Fuad Hotel</h3>
-                <p className="text-white/80 text-sm">Egyptian Heritage & Luxury</p>
+                <h3 className="text-xl font-display font-bold">Al Fouad Palace</h3>
+                <p className="text-white/80 text-sm">Pyramids View Hotel</p>
               </div>
             </div>
             <p className="text-white/90 leading-relaxed">
-              Experience the perfect blend of Egyptian heritage and modern luxury. 
-              Where ancient wonders meet contemporary comfort along the majestic Nile.
+              Experience authentic Egyptian hospitality just 2.6 miles from the Great Pyramids. 
+              Comfortable accommodations with modern amenities and traditional charm.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="w-8 h-8 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 transition-colors">
@@ -68,18 +68,18 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-white/60 mt-1 flex-shrink-0" />
                 <div className="text-white/80">
-                  <p>123 Nile View Street</p>
-                  <p>Giza, Egypt 12345</p>
+                  <p>Al Remaya, Giza</p>
+                  <p>12411 Cairo, Egypt</p>
                   <p>Near the Great Pyramids</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-white/60" />
-                <span className="text-white/80">+20 123 456 789</span>
+                <span className="text-white/80">+20 2 123 456 789</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-white/60" />
-                <span className="text-white/80">info@fuadhotel.com</span>
+                <span className="text-white/80">info@alfouadpalace.com</span>
               </div>
             </div>
           </div>

@@ -5,17 +5,17 @@ const Attractions = () => {
   const attractions = [
     {
       name: "Great Pyramid of Giza",
-      distance: "2.5 km",
+      distance: "2.6 miles",
       duration: "15 min drive",
       rating: "World Heritage Site",
       description: "The last remaining wonder of the ancient world, standing majestically for over 4,500 years.",
-      highlights: ["Great Pyramid", "Sphinx", "Sound & Light Show", "Camel Rides"],
+      highlights: ["Great Pyramid", "Sphinx (3.1 miles)", "Sound & Light Show", "Camel Rides"],
       image: egyptianMosqueImage,
       type: "Ancient Wonder"
     },
     {
       name: "Grand Egyptian Museum",
-      distance: "3.2 km",
+      distance: "3.5 km",
       duration: "20 min drive",
       rating: "Newest Attraction",
       description: "The world's largest archaeological museum dedicated to Egyptian civilization.",
@@ -34,14 +34,14 @@ const Attractions = () => {
       type: "Historic District"
     },
     {
-      name: "Nile River Cruise",
-      distance: "Walking Distance",
-      duration: "At Hotel Dock",
-      rating: "Exclusive Access",
-      description: "Private felucca rides and dinner cruises departing directly from our hotel marina.",
-      highlights: ["Sunset Cruises", "Dinner Aboard", "Traditional Felucca", "Private Charter"],
+      name: "Sphinx International Airport",
+      distance: "19 miles",
+      duration: "30 min drive",
+      rating: "Easy Access",
+      description: "Convenient airport access with our complimentary shuttle service available upon request.",
+      highlights: ["Airport Shuttle", "Easy Transfers", "International Flights", "Car Rental"],
       image: egyptianMosqueImage,
-      type: "River Experience"
+      type: "Transportation"
     }
   ];
 
